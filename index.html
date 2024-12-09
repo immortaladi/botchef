@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChefBot AI</title>
+    <style>
+        /* Body Styling */
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(45deg, #0f2027, #203a43, #2c5364);
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+        }
+
+        /* Container Styling */
+        .chefbot-container {
+            width: 90%;
+            max-width: 800px;
+            height: 700px;
+            border-radius: 20px;
+            background: rgba(0, 0, 0, 0.6);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.5), 0 0 30px rgba(255, 0, 200, 0.6);
+            border: 2px solid #ff00ff;
+            overflow: hidden;
+            position: relative;
+        }
+
+        /* Neon Title */
+        .title {
+            position: absolute;
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 2rem;
+            color: #fff;
+            text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff, 0 0 15px #ff00ff;
+            z-index: 10;
+            font-weight: bold;
+        }
+
+        /* Iframe Styling */
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        /* Responsive Design */
+        @media screen and (max-width: 768px) {
+            .chefbot-container {
+                height: 90%;
+            }
+            .title {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="chefbot-container">
+        <div class="title">ChefBot AI</div>
+        <iframe
+            src="https://www.chatbase.co/chatbot-iframe/Zl8BGsYj8yZSydePp7cJP"
+            frameborder="0">
+        </iframe>
+    </div>
+</body>
+</html>
